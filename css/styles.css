@@ -1,0 +1,401 @@
+@font-face{
+    font-family: "Neutra-Text";
+    src: url('../fonts/NT.otf');
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+/* NAVBAR */
+
+.navbar-fh{
+    background-color:#BAE5FF !important;
+}
+
+.dropdown-item:hover{
+    background-color:#3AA4F6 !important;
+    color: white !important;
+}
+
+.dropdown-item:focus{
+    background-color:#3AA4F6 !important;
+    color: white !important;
+}
+
+.dropdown-item:active{
+    background-color:#3AA4F6 !important; 
+    color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.logo-home{
+    width:65px;
+    height:65px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+  }
+
+  @media (max-width: 991px) {
+    .menu-items {
+      margin-top: 40px;
+    }
+  }
+
+/* Slide */
+
+@media(min-width:958px){
+    .carousel{
+        height:700px !important
+    }
+}
+
+@media(max-width:958px){
+    .carousel{
+        height:500px !important
+    }
+    #carousel-container{
+        width:100% !important;
+        height: 100% !important;
+    }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #3AA4F6;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #3AA4F6;
+}
+
+@media(min-width:1433px){
+.check-p{
+    position: absolute;
+    top:-350px;
+    left:-110px;
+}
+
+.check-i{
+    position: absolute;
+    top:-330px;
+    left:-110px;
+}
+}
+
+@media(min-width:1263px) and (max-width:1433px){
+    .check-p{
+        position: absolute;
+        top:-300px;
+        left:-95px;
+    }
+    .check-i{
+        position: absolute;
+        top:-280px;
+        left:-95px;
+    }
+}
+
+@media(min-width:1181px) and (max-width:1263px){
+    .check-p{
+        position: absolute;
+        top:-280px;
+        left:-90px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-260px;
+        left:-90px;
+    }
+}
+
+@media(min-width:1047px) and (max-width:1181px){
+    .check-p{
+        position: absolute;
+        top:-240px;
+        left:-80px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-220px;
+        left:-80px;
+    }
+}
+
+@media(min-width:957px) and (max-width:1047px){
+    .check-p{
+        position: absolute;
+        top:-210px;
+        left:-75px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-200px;
+        left:-75px;
+    }
+}
+
+@media(min-width:858px) and (max-width:957px){
+    .check-p{
+        position: absolute;
+        top:-700px;
+        left:-75px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-580px;
+        left:-75px;
+    }
+}
+
+@media(min-width:748px) and (max-width:858px){
+    .check-p{
+        position: absolute;
+        top:-600px;
+        left:-65px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-500px;
+        left:-65px;
+    }
+}
+
+@media(min-width:635px) and (max-width:748px){
+    .check-p{
+        position: absolute;
+        top:-500px;
+        left:-55px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-400px;
+        left:-55px;
+    }
+}
+
+@media(min-width:600px) and (max-width:635px){
+    .check-p{
+        position: absolute;
+        top:-470px;
+        left:-50px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-400px;
+        left:-50px;
+    }
+}
+
+@media(min-width:566px) and (max-width:600px){
+    .check-p{
+        position: absolute;
+        top:-440px;
+        left:-50px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-360px;
+        left:-50px;
+    }
+}
+
+@media(min-width:520px) and (max-width:566px){
+    .check-p{
+        position: absolute;
+        top:-400px;
+        left:-45px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-330px;
+        left:-45px;
+    }
+}
+
+@media(min-width:498px) and (max-width:520px){
+    .check-p{
+        position: absolute;
+        top:-380px;
+        left:-40px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-320px;
+        left:-40px;
+    }
+}
+
+@media(min-width:464px) and (max-width:498px){
+    .check-p{
+        position: absolute;
+        top:-350px;
+        left:-40px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-290px;
+        left:-40px;
+    }
+}
+
+@media(min-width:408px) and (max-width:464px){
+    .check-p{
+        position: absolute;
+        top:-300px;
+        left:-35px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-250px;
+        left:-35px;
+    }
+}
+
+@media(min-width:0px) and (max-width:408px){
+    .check-p{
+        position: absolute;
+        top:-270px;
+        left:-30px;
+    }
+
+    .check-i{
+        position: absolute;
+        top:-220px;
+        left:-30px;
+    }
+}
+
+/* About */
+.white-section{
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: Neutra-Text;
+}
+
+hr.separator{
+    margin-top:-5px;
+    border: 2px solid #3AA4F6;
+    width: 80px;
+    border-radius: 5px;
+}
+
+@media (min-width:771px){
+    .timeline-text{
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:771px){
+    .timeline-text{
+        margin-left: 50px;
+    }
+}
+
+/* Work */
+.card{
+    background-color: #BAE5FF !important;
+    border: none !important;
+    border-radius: 0px 0px !important;
+}
+
+.work-link{
+    color: #172e54;
+}
+
+/* All work */
+.folio-card{
+    background-color: #ffffff !important;
+}
+
+.my-link{
+    color: black;
+}
+
+.download-card{
+    height: 250px;
+}
+
+.download-card-prov{
+    height: 200px;
+}
+
+.download-card-reading{
+    height:220px;
+}
+
+.mypagination {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .mypagination:hover {
+    background-color: #3AA4F6;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #BAE5FF;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+code{
+    color: #3AA4F6;
+}
+
+/* Body */
+body{
+    background-color: #F3F6F6;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #BAE5FF;
+}
